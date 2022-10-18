@@ -11,10 +11,10 @@ const input = main.querySelector("input");
 
 input.onkeydown = (event) => {
   if (event.key === "Enter") {
-    input.value = "";
+    let utterance = new SpeechSynthesisUtterance(`${input.value} är fel, haha!`);
     splashText();
-    let utterance = new SpeechSynthesisUtterance("Du har fel, haha!");
     speechSynthesis.speak(utterance);
+    input.value = "";
   }
 };
 
