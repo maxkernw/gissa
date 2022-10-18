@@ -23,7 +23,7 @@ main {
   position: absolute;
   padding: 2rem;
   height: fit-content;
-  box-shadow: 0 0 10px rgba(yellow, yellow, yellow, 0.5);
+  box-shadow: 0 0 40px rgba(225, 225, 225, 0.9);
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 5px;
